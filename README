@@ -1,21 +1,11 @@
 Authentication Audit
+====================
 
-============
+This web app allows you to easily review and verify all the third-party applications and services that are connected to your Google account. 
+It provides a simple interface for checking which apps have access to your account, giving you full control over your privacy and security settings. 
+By using this tool, you can ensure that only trusted services are linked to your account and take action if any unauthorized or outdated apps are found.
 
-This software if used to check or validate all the third party application or
-services connected to your google account.
-
-There are several guides for kernel developers and users. These guides can
-be rendered in a number of formats, like HTML and PDF. Please read
-Documentation/admin-guide/README.rst first.
-
-In order to build the documentation, use `make htmldocs` or
-`make pdfdocs`. The formatted documentation can also be read online at:
-https://www.kernel.org/doc/html/latest/
-
-There are various text files in the Documentation/ subdirectory,
-several of them using the reStructuredText markup notation.
-
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+## Features
+- List all third-party applications and services linked to your Google account.  
+- Audit permissions and access levels for each application or service.  
+- Identify potentially risky or unnecessary connections.  
