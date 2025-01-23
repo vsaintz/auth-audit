@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation";
 import Index from "./components/Index.jsx";
-import LoginPage from "./components/LoginPage.jsx";
+import SignInPage from "./components/SignInPage.jsx";
 import SignUpPage from "./components/SignUpPage.jsx";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signin" element={<SignInPage />} />
           <Route path="/signup" element={<SignUpPage />} />
         </Routes>
       </Router>
