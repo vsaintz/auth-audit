@@ -1,9 +1,9 @@
-Authentication Audit
-====================
+| Authentication Audit |
 
 This web app allows you to easily review and verify all the third-party applications and services that are connected to your Google account. It provides a simple interface for checking which apps have access to your account, giving you full control over your privacy and security settings. By using this tool, you can ensure that only trusted services are linked to your account and take action if any unauthorized or outdated apps are found.
 
-## Features
+| Features |
+
 - List all third-party applications and services linked to your Google account.  
 - Audit permissions and access levels for each application or service.  
 - Identify potentially risky or unnecessary connections.  
