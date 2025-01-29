@@ -10,7 +10,7 @@ const SignUpPage = () => {
                         SignUp with Google
                     </button>
                     <Link to="/signin">
-                    <p className="text-center p-4 text-sm">Or SignIn here</p>
+                    <p className="text-center p-4 text-sm hover:underline hover:text-gray-500">Or SignIn here</p>
                     </Link>
                 </div>
             </div>

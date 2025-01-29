@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 const LoginPage = () => {
     return (
         <div className="h-screen flex justify-center items-center">
@@ -7,7 +9,9 @@ const LoginPage = () => {
                     <button className="px-4 py-2 bg-indigo-600 text-white rounded">
                         Sign In with Google
                     </button>
-                    <p className="text-center p-4 text-sm">Or SignUp here</p>
+                    <Link to="/signup">
+                        <p className="hover:underline hover:text-gray-500 text-center p-4 text-sm">Or SignUp here</p>
+                    </Link>
                 </div>
             </div>
         </div>
